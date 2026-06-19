@@ -1,0 +1,32 @@
+{
+  "name": "ppxc-find-customers",
+  "displayName": "PPXC Find Customers",
+  "description": "Turn short-video comments into customer leads, keyword ideas, and outreach scripts.",
+  "type": "stdio",
+  "command": "npx",
+  "args": ["-y", "ppxc-leads-mcp"],
+  "package": "ppxc-leads-mcp",
+  "homepage": "https://opc1.me/download/mcp",
+  "categories": [
+    "marketing",
+    "lead-generation",
+    "customer-discovery",
+    "sales",
+    "social-selling"
+  ],
+  "keywords": [
+    "customer leads",
+    "lead generation",
+    "customer discovery",
+    "short-video comments",
+    "comment analysis",
+    "social selling",
+    "outreach scripts",
+    "marketing MCP"
+  ],
+  "privacy": "Use only public comment data and data you are authorized to process. Do not enter secrets, passwords, payment data, recovery codes, API keys, or private customer records.",
+  "support": {
+    "url": "https://opc1.me/download/mcp",
+    "email": "yuanjian068@gmail.com"
+  }
+}
