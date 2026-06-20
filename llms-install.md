@@ -1,6 +1,6 @@
-# PPXC Find Customers Installation Guide
+# OPC 评论线索雷达 Installation Guide
 
-Use this guide when an agent or MCP host needs to install PPXC Find Customers.
+Use this guide when an agent or MCP host needs to install OPC 评论线索雷达.
 
 ## MCP Server
 
@@ -20,8 +20,8 @@ Install through the published npm package:
 ## First Run
 
 1. Start the MCP host after adding the server config.
-2. Ask the agent to check PPXC login status.
-3. If PPXC is not connected, follow the login instructions returned by the MCP.
+2. Ask the agent to check OPC login status.
+3. If OPC is not connected, follow the login instructions returned by the MCP.
 4. Choose a product or offer before searching.
 5. Generate customer-discovery keywords.
 6. Search short-video comments for customer intent.

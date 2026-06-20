@@ -1,11 +1,11 @@
 ---
 name: ppxc-find-customers
-description: Use this skill when the user wants to find customer leads from short-video comments, generate customer-discovery keywords, review lead intent, query a customer pool, or prepare outreach scripts with PPXC.
+description: Use this skill when the user wants to find customer leads from short-video comments, generate customer-discovery keywords, review lead intent, query a customer pool, or prepare outreach scripts with OPC.
 ---
 
-# PPXC Find Customers
+# OPC 评论线索雷达
 
-Use this skill when the user wants to find customers, discover leads, analyze short-video comments, generate search keywords, review a customer pool, or prepare outreach scripts with PPXC.
+Use this skill when the user wants to find customers, discover leads, analyze short-video comments, generate search keywords, review a customer pool, or prepare outreach scripts with OPC.
 
 ## Trigger Phrases
 
@@ -20,8 +20,8 @@ Use this skill when the user wants to find customers, discover leads, analyze sh
 
 ## Workflow
 
-1. Check PPXC connection status.
-2. Ask the user to connect PPXC if the account is not ready.
+1. Check OPC connection status.
+2. Ask the user to connect OPC if the account is not ready.
 3. List products and choose the right product or offer.
 4. Generate customer-discovery keywords.
 5. Search comments for buying signals.
@@ -59,7 +59,7 @@ Find customer leads for my product.
 
 ## Positioning
 
-PPXC Find Customers is for marketing and sales discovery. It turns real comment intent into lead lists, customer signals, and outreach-ready actions.
+OPC 评论线索雷达 is for marketing and sales discovery. It turns real comment intent into lead lists, customer signals, and outreach-ready actions.
 
 ## Official Setup
 

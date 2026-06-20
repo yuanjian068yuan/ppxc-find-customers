@@ -1,6 +1,6 @@
 {
   "name": "ppxc-find-customers",
-  "displayName": "PPXC Find Customers",
+  "displayName": "OPC 评论线索雷达",
   "description": "Turn short-video comments into customer leads, keyword ideas, and outreach scripts.",
   "type": "stdio",
   "command": "npx",

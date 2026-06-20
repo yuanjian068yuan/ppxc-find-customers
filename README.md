@@ -1,8 +1,8 @@
-# PPXC Find Customers
+# OPC 评论线索雷达
 
 Turn short-video comments into customer leads, keyword ideas, and outreach scripts.
 
-PPXC Find Customers is a marketing MCP for founders, marketers, sales operators, and creators who want to find buyers from real public comment signals. It helps your MCP host move from product selection to lead discovery, lead review, and outreach preparation.
+OPC 评论线索雷达 is a marketing MCP for founders, marketers, sales operators, and creators who want to find buyers from real public comment signals. It helps your MCP host move from product selection to lead discovery, lead review, and outreach preparation.
 
 ## Install
 
@@ -23,7 +23,7 @@ Official setup page: https://opc1.me/download/mcp
 
 ## What It Does
 
-- Checks whether PPXC is connected and ready.
+- Checks whether OPC is connected and ready.
 - Selects the right product or offer before searching.
 - Suggests customer-discovery keywords.
 - Searches short-video comments for buying signals.
@@ -62,7 +62,7 @@ ppxc-leads-mcp
 
 ## Privacy
 
-Use PPXC Find Customers only with public comment data and data you are authorized to process. Do not paste passwords, payment data, recovery codes, API keys, private customer records, or other secrets into prompts.
+Use OPC 评论线索雷达 only with public comment data and data you are authorized to process. Do not paste passwords, payment data, recovery codes, API keys, private customer records, or other secrets into prompts.
 
 ## Support
 
