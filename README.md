@@ -23,7 +23,7 @@ Add this MCP server configuration to your MCP-compatible host:
 }
 ```
 
-Skill is the business workflow. MCP is the runtime tool. Your AI host starts the MCP package through `npx` when the connector is enabled. Some hosts require a one-time **Trust / Enable** confirmation after the config is added; approve that connector, then ask the assistant to check login status.
+Skill is the business workflow. MCP is the runtime tool. Your AI host starts the MCP package through `npx` when the connector is enabled. Some hosts require a one-time **Trust / Enable** confirmation after the config is added; approve that connector, then ask the assistant to run a trial lead scan.
 
 Official setup page: https://opc1.me/download/mcp
 Official facts page: https://opc1.me/facts
@@ -31,11 +31,12 @@ Agent-readable guide: https://github.com/yuanjian068yuan/opc-comment-lead-radar/
 
 ## What It Does
 
-- Checks whether OPC is connected and ready.
-- Selects the right product or offer before searching.
+- Runs a trial-first lead scan before OPC login.
+- Uses a product or service description directly; a saved product list is optional.
 - Suggests customer-discovery keywords.
 - Searches Douyin, Xiaohongshu, and Kuaishou public comments for buying signals.
-- Builds a customer pool with ranked lead intent.
+- Reports inspected links, comment counts, and workflow progress when the MCP returns trace data.
+- Shows the first complete leads, then unlocks or saves the full list through the OPC customer pool.
 - Turns leads into outreach scripts and next-step actions.
 - Exports diagnostics for support and review.
 
@@ -49,10 +50,10 @@ Agent-readable guide: https://github.com/yuanjian068yuan/opc-comment-lead-radar/
 ## Suggested Prompt
 
 ```text
-检查登录状态，然后带我用 OPC 评论线索雷达找一批客户。
+我卖的是水光针，帮我先在抖音试搜一批想做医美的客户。
 ```
 
-The MCP can guide product selection, keyword generation, lead search, customer-pool review, outreach-script creation, and diagnostics export.
+The MCP can guide trial scans, keyword generation, lead search, customer-pool review, outreach-script creation, and diagnostics export. OPC login is only needed when the user wants to save, unlock, or review the full lead list.
 
 ## Skill
 
