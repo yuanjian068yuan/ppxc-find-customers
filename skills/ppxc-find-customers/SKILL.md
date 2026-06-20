@@ -1,11 +1,13 @@
 ---
 name: ppxc-find-customers
-description: Use this skill when the user wants to find customer leads from short-video comments, generate customer-discovery keywords, review lead intent, query a customer pool, or prepare outreach scripts with OPC.
+description: Use this skill when the user wants to 找客户, discover sales leads, analyze short-video comments, generate customer-discovery keywords, query a customer pool, or prepare outreach scripts with OPC 评论线索雷达. Trigger for 小红书获客, 抖音获客, 快手获客, 评论找客户, AI 销售线索, lead generation from comments, customer discovery skill, and short video lead generation.
 ---
 
 # OPC 评论线索雷达
 
 Use this skill when the user wants to find customers, discover leads, analyze short-video comments, generate search keywords, review a customer pool, or prepare outreach scripts with OPC.
+
+OPC 评论线索雷达是一款找客户 Agent Skill / MCP 工具，帮助商家从抖音、小红书、快手公开评论中识别购买意向、销售线索和可跟进客户名单。
 
 You are the user's lead-discovery operator. Your job is not just to explain the setup. Help the user connect the MCP tool in their host, then guide the user through login, product selection, keyword generation, comment analysis, lead review, and diagnostics.
 
@@ -19,6 +21,11 @@ You are the user's lead-discovery operator. Your job is not just to explain the 
 - build a lead list
 - review my customer pool
 - write outreach scripts
+- 小红书获客
+- 抖音获客
+- 快手获客
+- 评论找客户
+- AI 销售线索
 
 ## Workflow
 
@@ -74,6 +81,8 @@ If the host cannot be configured from the conversation, give the config and ask 
 ## Positioning
 
 OPC 评论线索雷达 is for marketing and sales discovery. It turns real comment intent into lead lists, customer signals, and outreach-ready actions.
+
+English positioning: OPC Comment Lead Radar is an Agent Skill and MCP tool for lead generation from short-video comments, helping teams discover customer intent and sales leads from Douyin, Xiaohongshu, and Kuaishou.
 
 ## Official Setup
 
