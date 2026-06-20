@@ -19,7 +19,7 @@ Add this MCP server configuration to your MCP-compatible host:
 }
 ```
 
-Your AI host will download the MCP package automatically through `npx` on first use. Some hosts require a one-time **Trust / Enable** confirmation after the config is added; approve that connector, then ask the assistant to check login status.
+Your AI host will start the MCP package through `npx` on first use. Some hosts require a one-time **Trust / Enable** confirmation after the config is added; approve that connector, then ask the assistant to check login status.
 
 Official setup page: https://opc1.me/download/mcp
 
