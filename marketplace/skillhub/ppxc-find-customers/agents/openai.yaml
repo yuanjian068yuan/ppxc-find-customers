@@ -1,6 +1,6 @@
 interface:
   display_name: "OPC 评论线索雷达"
-  short_description: "先试用扫描评论线索，再解锁和保存完整客户名单"
-  default_prompt: "使用 $ppxc-find-customers 先根据我的产品描述试搜一批评论线索。"
+  short_description: "从抖音/小红书/快手公开评论里找客户、判意向、给话术"
+  default_prompt: "使用 $ppxc-find-customers：我卖【产品/服务】，帮我从【抖音/小红书/快手】公开评论里试搜一批想买的人。"
 policy:
   allow_implicit_invocation: true
