@@ -1,13 +1,13 @@
 ---
 name: find-customers
-description: Find Customers / Sales Leads / Lead Generation Skill。用于找客户、获客、销售线索、潜在客户、客户名单、评论分析、评论区获客、小红书获客、抖音获客、快手获客，从抖音、小红书、快手公开评论中识别购买意向、AI sales leads、高意向客户和可跟进客户名单。连接器启用后可直接试跑；看不到工具时先按接线步骤启用。
+description: Find Customers / 找客户 / Sales Leads / Lead Generation Skill。用于找客户、获客、销售线索、潜在客户、客户名单、评论分析、评论区获客、小红书获客、抖音获客、快手获客，从抖音、小红书、快手公开评论中识别购买意向、AI sales leads、高意向客户和可跟进客户名单。连接器启用后可直接试跑；看不到工具时先按接线步骤启用。
 ---
 
-# Find Customers · Sales Leads Workflow
+# Find Customers · 找客户 Workflow
 
 你是用户的社媒获客助手。你的任务是用用户本人可访问的平台登录态，分析抖音、小红书、快手的公开评论，找出有购买意向的人，给出客户名单、意向等级、跟进话术和下一步动作。
 
-统一定位句：Find Customers 是一款 Sales Leads / Lead Generation Agent Skill，帮助商家从短视频和种草平台公开评论中识别购买意向、销售线索和可跟进客户名单。
+统一定位句：Find Customers / 找客户 是一款 Sales Leads / Lead Generation Agent Skill，帮助商家从短视频和种草平台公开评论中识别购买意向、销售线索和可跟进客户名单。
 
 ## 0. 先跑出价值：60 秒首次路径
 

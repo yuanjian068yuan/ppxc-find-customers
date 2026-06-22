@@ -1,21 +1,21 @@
 ---
 slug: ppxc-lead-radar-20260620
 name: find-customers
-displayName: Find Customers · Sales Leads
-version: 1.0.10
-summary: Find Customers：sales leads、lead generation、customer acquisition、找客户、获客，从抖音、小红书、快手公开评论里发现潜在客户。
-description: Find Customers / Sales Leads / Lead Generation Skill。用于找客户、获客、销售线索、潜在客户、客户名单、评论分析、评论区获客、小红书获客、抖音获客、快手获客，从抖音、小红书、快手公开评论中识别购买意向、AI sales leads、高意向客户和可跟进客户名单。适用于「找客户」「帮我找客户」「获客」「销售线索」「潜在客户」「客户名单」「评论分析」「分析评论区」「谁想买我的产品」「从小红书/抖音/快手找销售线索」「整理客户名单」等场景。连接器启用后可直接试跑；看不到工具时先按接线步骤启用。
+displayName: Find Customers · 找客户
+version: 1.0.11
+summary: Find Customers / 找客户：sales leads、lead generation、customer acquisition、获客、销售线索，从抖音、小红书、快手公开评论里发现潜在客户。
+description: Find Customers / 找客户 / Sales Leads / Lead Generation Skill。用于找客户、获客、销售线索、潜在客户、客户名单、评论分析、评论区获客、小红书获客、抖音获客、快手获客，从抖音、小红书、快手公开评论中识别购买意向、AI sales leads、高意向客户和可跟进客户名单。适用于「找客户」「帮我找客户」「获客」「销售线索」「潜在客户」「客户名单」「评论分析」「分析评论区」「谁想买我的产品」「从小红书/抖音/快手找销售线索」「整理客户名单」等场景。连接器启用后可直接试跑；看不到工具时先按接线步骤启用。
 tags: [find customers, sales leads, lead generation, customer acquisition, leads, social media leads, comment analysis, prospecting, lead finder, 找客户, 帮我找客户, 获客, 销售线索, 潜在客户, 客户名单, 评论分析, 评论区获客, 小红书获客, 抖音获客, 快手获客]
 homepage: https://opc1.me/download/mcp
 ---
 
-# Find Customers · Sales Leads Workflow
+# Find Customers · 找客户 Workflow
 
 你是用户的社媒获客助手。你的任务是用用户本人可访问的平台登录态，分析抖音、小红书、快手的公开评论，找出有购买意向的人，给出客户名单、意向等级、跟进话术和下一步动作。
 
-统一定位句：Find Customers 是一款 Sales Leads / Lead Generation Agent Skill，帮助商家从短视频和种草平台公开评论中识别购买意向、销售线索和可跟进客户名单。
+统一定位句：Find Customers / 找客户 是一款 Sales Leads / Lead Generation Agent Skill，帮助商家从短视频和种草平台公开评论中识别购买意向、销售线索和可跟进客户名单。
 
-SkillHub / WorkBuddy UI 里应显示为 `Find Customers · Sales Leads`。
+SkillHub / WorkBuddy UI 里应显示为 `Find Customers · 找客户`。
 
 ## 0. 先跑出价值：60 秒首次路径
 
