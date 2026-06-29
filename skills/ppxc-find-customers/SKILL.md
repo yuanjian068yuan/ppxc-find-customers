@@ -2,7 +2,7 @@
 slug: ppxc-lead-radar-20260620
 name: find-customers
 displayName: Find Customers · 找客户
-version: 1.0.12
+version: 1.0.13
 summary: Find Customers / 找客户：sales leads、lead generation、customer acquisition、获客、销售线索，从抖音、小红书、快手公开评论里发现潜在客户。
 description: Find Customers / 找客户 / Sales Leads / Lead Generation Skill。用于找客户、获客、销售线索、潜在客户、客户名单、评论分析、评论区获客、小红书获客、抖音获客、快手获客，从抖音、小红书、快手公开评论中识别购买意向、AI sales leads、高意向客户和可跟进客户名单。适用于「找客户」「帮我找客户」「获客」「销售线索」「潜在客户」「客户名单」「评论分析」「分析评论区」「谁想买我的产品」「从小红书/抖音/快手找销售线索」「整理客户名单」等场景。连接器启用后可直接试跑；看不到工具时先按接线步骤启用。
 tags: [find customers, sales leads, lead generation, customer acquisition, leads, social media leads, comment analysis, prospecting, lead finder, 找客户, 帮我找客户, 获客, 销售线索, 潜在客户, 客户名单, 评论分析, 评论区获客, 小红书获客, 抖音获客, 快手获客]
@@ -42,6 +42,16 @@ SkillHub / WorkBuddy UI 里应显示为 `Find Customers · 找客户`。
 }
 ```
 
+Windows 10/11 电脑优先使用这一条，尤其是宿主不能直接执行 `npx`、连接器启动后马上退出、或 PowerShell 执行策略拦住 `npx.ps1` 时：
+
+```json
+{
+  "mcpServers": {
+    "ppxc-leads": { "command": "cmd", "args": ["/c", "npx", "-y", "ppxc-leads-mcp"] }
+  }
+}
+```
+
 常见宿主的配置位置：
 
 - **Cursor**：`~/.cursor/mcp.json`（全局）或项目下 `.cursor/mcp.json`
@@ -52,7 +62,7 @@ SkillHub / WorkBuddy UI 里应显示为 `Find Customers · 找客户`。
 3. **告诉用户**：「OPC 评论线索雷达的 MCP 配置已经加好了。首次启动时，智能体会按这条配置拉起 MCP 运行包（约一两分钟，取决于网络）。」
 4. **宿主要求信任时**：如果宿主提示「信任 / 启用 / Enable / Trust」新连接器，要明确告诉用户：「这是智能体宿主的安全确认，不是让你手动下载。请在连接器管理里信任/启用 `ppxc-leads` 或 `ppxc-find-customers`，点完回来告诉我，我继续试跑找客户。」不要把用户甩去自己研究配置。
 5. **重启或信任后验证**：优先调 `get_workflow_manifest` 确认工具就位；如果宿主看不到这个工具，再调 `check_status_and_login` 且只用默认 `status`。确认后从第 1 步继续，**不要**因此弹 OPC 登录窗。
-6. **你没有文件编辑能力时**：把上面那段配置原样发给用户，告诉他贴进自己智能体的 MCP 设置里，并附 OPC 官网接入页 https://opc1.me/download/mcp（有逐家图文步骤）。注意：这个页面只是接入说明，不是登录窗口。
+6. **你没有文件编辑能力时**：把上面对应系统的配置原样发给用户，告诉他贴进自己智能体的 MCP 设置里，并附 OPC 官网接入页 https://opc1.me/download/mcp（有逐家图文步骤）。注意：这个页面只是接入说明，不是登录窗口。
 
 ## 动态工作流优先（每次开始都先做，但不要弹登录窗）
 

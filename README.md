@@ -23,6 +23,19 @@ Add this MCP server configuration to your MCP-compatible host:
 }
 ```
 
+On Windows 10/11, use this connector form when the host cannot launch `npx` directly or PowerShell blocks `npx.ps1`:
+
+```json
+{
+  "mcpServers": {
+    "ppxc-find-customers": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "ppxc-leads-mcp"]
+    }
+  }
+}
+```
+
 Skill is the business workflow. MCP is the runtime tool. Your AI host starts the MCP package through `npx` when the connector is enabled. Some hosts require a one-time **Trust / Enable** confirmation after the config is added; approve that connector, then ask the assistant to run a trial lead scan.
 
 Official setup page: https://opc1.me/download/mcp

@@ -21,6 +21,19 @@ Use this guide when an agent or MCP host needs to enable OPC 评论线索雷达.
 }
 ```
 
+Windows 10/11 connector form:
+
+```json
+{
+  "mcpServers": {
+    "ppxc-find-customers": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "ppxc-leads-mcp"]
+    }
+  }
+}
+```
+
 The host starts this MCP tool when the connector is enabled. If the host asks for **Trust / Enable**, treat it as a normal safety confirmation for this connector.
 
 ## First Use
